@@ -1,0 +1,253 @@
+
+.footer {
+
+    width: 100%;
+    padding: 20px 0px;
+    background-image: url(./img/background-footer.svg);
+    background-size: cover;
+    background-color: rgba(0, 255, 255, 0.349);
+    
+}
+     .footer__pie {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: auto;
+    background: #9b97972d;
+     }
+
+     .box__footer{
+        display: flex;
+        flex-direction: column;
+        padding: 33px;
+        margin-top: 70px;
+    }
+
+     .box__footer  .logo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+        
+      }
+
+
+    .box__footer .terminos{
+        max-width: 300px;
+        margin-top: 5px;
+        font-weight: 500;
+        color: #7a7a7a;
+        font-size: 18px;
+        text-align: justify;
+        background: #7a7a7a23;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .box__footer h2{
+        margin-bottom: 20px;
+        color: #343434;
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+
+
+    .box__footer a{
+       
+        color: #7a7a7a;
+        font-weight: 600;
+        background: #7a7a7a23;
+        padding: 5px 5px;
+        border-radius: 5px;
+        margin: 2px 10px;
+        text-align: left;
+        font-size: 13px;
+
+    }
+
+    .box__footer .box__footer-r .fa-brands {
+
+        
+        margin: 2px 10px;
+        text-align: left;
+        font-size: 22px;
+        
+        
+
+    }
+
+    .box__footer .logo__whatsapp {
+
+        background: none;
+    }
+
+
+
+    .box__footer .logo__icono {
+
+        background: none;
+    }
+
+
+    .box__footer a:hover{
+        opacity: 0.8;
+        background: #f7eaea;
+        color: #000;
+    }
+
+    .box__footer .logo__whatsapp:hover {
+
+        background: none;
+        color: rgb(0, 255, 13);
+    }
+
+    .box__footer .logo__icono:hover {
+
+        background: none;
+        color: rgb(25, 0, 255);
+    }
+
+    .box__footer a .fa-brands{
+        font-size: 23px;
+    }
+
+    .box__copyright{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 40px;
+    }
+
+    
+.box__copyright p{
+
+    
+    color: #000;
+    margin: 12px 8px;
+    padding: 12px 5px;
+}
+
+.box__copyright hr{
+    
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+   
+}
+
+.box__copyright1 hr {
+
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+    margin: 15px 5px;
+    padding: 3px 0;
+    
+}
+
+
+@media all and  (max-width: 1136px) {
+
+    .footer__pie {
+
+       
+        max-width: 1000px;
+       
+         }
+
+
+
+
+
+}
+
+@media all and  (max-width: 1000px) {
+
+    .footer__pie {
+
+       
+        max-width: 900px;
+       
+         }
+
+
+        
+         .box__footer{
+          
+            
+            justify-content: center;
+          
+        }
+
+
+
+}
+
+@media all and  (max-width: 800px) {
+
+    .footer__pie {
+
+       
+        max-width: 700px;
+       
+         }
+
+
+
+}
+
+@media all and  (max-width: 700px) {
+
+    .footer__pie {
+
+       
+        max-width: 600px;
+       
+         }
+
+
+
+}
+
+@media all and  (max-width: 500px) {
+
+    .footer__pie {
+
+       
+        max-width: 400px;
+       
+       
+         }
+
+
+         .box__copyright p{
+
+    
+            font-size: 12px;
+        }
+
+
+
+}
+
+@media all and  (max-width: 350px) {
+
+    .footer__pie {
+
+       
+        max-width: 300px;
+       
+         }
+
+
+         .box__footer h2 {
+             font-size: 22px;
+         }
+
+
+
+}
